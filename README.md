@@ -1,3 +1,20 @@
+# ORI Info
+
+We've forked this [notion-api repo](https://github.com/splitbee/notion-api-worker) and are running our own cloudflare worker at [https://notion-api-worker.operationalresults.workers.dev/](https://notion-api-worker.operationalresults.workers.dev/).
+
+## Staying Up to Date
+It's important to update to the latest changes in the original repo. Notion updates their "unofficial" API often. Notion is working on a public API and we can get rid of this once that happens.
+
+## Publishing New Versions
+Use the [`wrangler`](https://developers.cloudflare.com/workers/learning/getting-started#updating-the-cli) cli to publish changes. Run `wrangler publish` from within this directory once you'ved logged in.
+
+---
+---
+---
+
+# Repo Info
+
+
 ![Notion API Worker](https://user-images.githubusercontent.com/1440854/79893752-cc448680-8404-11ea-8d19-e0308eb32028.png)
 ![API Version](https://badgen.net/badge/API%20Version/v1/green)
 
